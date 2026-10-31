@@ -1,0 +1,18 @@
+SENTIMENTSCOPE — WINDOWS QUICK START
+
+1. Extract this ZIP.
+2. Open the INNER sentimentscope folder in VS Code (the folder with app.py).
+3. Open Terminal > New Terminal.
+4. Run:
+   python -m pip install -r requirements.txt
+5. Run:
+   python -m unittest discover -s tests -v
+6. Run:
+   python -m streamlit run app.py
+7. Open http://localhost:8501 and test a sentence.
+8. Try sample_reviews.csv in the CSV tab.
+9. Take real screenshots and put them inside screenshots/.
+10. Upload the CONTENTS of the inner sentimentscope folder to GitHub.
+
+First inference downloads the model. Internet is required.
+Do not upload .venv, __pycache__, or any secrets.
